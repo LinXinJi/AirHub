@@ -1,0 +1,38 @@
+.md-typeset h1 {
+    color: var(--md-typeset-a-color);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.md-typeset h2 {
+    font-size: 2.1rem;
+    margin: 1em 0 .64em;
+}
+
+.md-typeset h3 {
+    font-size: 1.4rem;
+}
+
+.md-typeset h4 {
+    font-size: 0.9rem;
+}
+
+.md-typeset hr {
+    border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+
+[dir=ltr] .md-typeset blockquote {
+    border-left: .2rem solid var(--md-primary-fg-color);
+}
+
+.md-tabs__item--active {
+    color: var(--md-typeset-a-color);
+    border-bottom: .05rem solid var(--md-primary-fg-color);
+}
+
+.md-nav__item--section > .md-nav__link .md-ellipsis,
+.md-nav--secondary .md-nav__title {
+    color: var(--md-typeset-a-color);
+    font-size: 0.8rem; 
+}
+

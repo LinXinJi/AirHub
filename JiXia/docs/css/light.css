@@ -1,0 +1,29 @@
+[data-md-color-scheme="slate"] {
+    --md-typeset-mark-color: #ffff00;
+}
+
+.md-typeset code {
+     background-color:#c0a1f53d;
+}
+
+.highlight span.filename {
+    background-color: #9252cf66;
+}
+
+.md-typeset .tabbed-labels {
+    background-color: #9252cf66;
+    border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
+}
+
+.md-typeset mark {
+    padding: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    background-color: var(--md-typeset-mark-color);
+}

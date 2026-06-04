@@ -6,15 +6,18 @@
 
 .md-typeset h2 {
     font-size: 2.1rem;
+    font-weight: 200;
     margin: 1em 0 .64em;
 }
 
 .md-typeset h3 {
     font-size: 1.4rem;
+    font-weight: 200;
 }
 
 .md-typeset h4 {
     font-size: 0.9rem;
+    font-weight: 200;
 }
 
 .md-typeset hr {
@@ -35,4 +38,5 @@
     color: var(--md-typeset-a-color);
     font-size: 0.8rem; 
 }
+
 

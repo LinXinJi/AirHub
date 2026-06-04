@@ -1,0 +1,15 @@
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: hsl(225deg 17.59% 7.9%);
+    --md-typeset-mark-color: #00c2e4bf;
+}
+
+.md-typeset mark {
+    padding: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    background-color: var(--md-typeset-mark-color);
+}

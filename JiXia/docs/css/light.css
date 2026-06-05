@@ -1,5 +1,6 @@
 [data-md-color-scheme="slate"] {
     --md-typeset-mark-color: #ffff00;
+    --md-typeset-kbd-border-color: hsl(225deg 3.09% 61%);
 }
 
 .md-typeset code {
@@ -27,3 +28,4 @@
     border-bottom-right-radius: .4rem;
     background-color: var(--md-typeset-mark-color);
 }
+

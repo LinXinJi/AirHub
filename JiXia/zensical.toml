@@ -6,14 +6,42 @@
 
 [project]
 nav = [
-  {"Home" = [
-      "index.md",
-      {"快速入门" = [
-          {"article1" = "article1.md"},
-          {"article2" = "article2.md"}
-      ]}
-  ]},
-  "markdown.md"
+    {"首页" = "index.md"},
+    {"计算机" = [
+        "computer/index.md",
+        {"计算机网络" = [
+            {"导论" = "computer/network/introduction.md"}
+            # {"物理层"}
+        ]},
+        {"计算机组成原理" = [
+            {"导论" = "computer/composition/introduction.md"}
+        ]},
+        {"数据结构与算法" = [
+            {"导论" = "computer/algorithm/introduction.md"}
+        ]},
+        {"操作系统" = [
+            {"导论" = "computer/operating_system/introduction.md"}
+        ]},
+        {"软件工程" = [
+            {"导论" = "computer/software/introduction.md"}
+        ]},
+        {"嵌入式系统" = [
+            {"导论" = "computer/embedded/introduction.md"}
+        ]},
+        {"数据库系统" = [
+            {"导论" = "computer/database/introduction.md"}
+        ]}
+    ]},
+    {"工具箱" = [
+        "tools/index.md",
+        {"数据库" = [
+            {"DBX" = "tools/dbx.md"},
+            {"DBeaver" = "tools/dbeaver.md"}
+        ]},
+        {"AI Agent" = [
+            {"Oh-my-pi" = "tools/omp.md"}
+        ]}
+    ]}
 ]
 
 extra_css = [
@@ -105,14 +133,15 @@ link = "https://github.com/LinXinJi"
 #######################################################
 
 [project.theme]
-# logo = "images/logo.png"
+# logo = "images/logo.png"??
 
 # 站点图标
-# favicon = "images/favicon.png"
+favicon = "images/favicon.png"
 
 # 全局功能
 features = [
     "header.autohide",              # 自动隐藏页眉
+    "navigation.path",              # 导航路径
     "navigation.tabs",              # 导航栏标签
     "navigation.tabs.sticky",       # 导航栏标签黏住页眉
     "navigation.sections",          # 导航栏分区
@@ -123,7 +152,6 @@ features = [
     "navigation.tracking",          # 锚点追踪
     "toc.follow",                   # 目录跟随滚动
     "search.highlight",             # 搜索结果高亮
-
 ]
 
 [project.theme.icon]
@@ -174,7 +202,7 @@ code = "Maple Mono NF CN"
 
 
 [project.plugins.offline]
-enabled = true
+enabled = false
 
 #########################################################
 # 
